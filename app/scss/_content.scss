@@ -151,3 +151,134 @@
 		background-position: center;
 	}
 }
+
+
+
+
+//column-1
+.column-1{
+	border-radius: 30px;
+}
+.sitebar{
+	background-color: white;
+	border-radius: 15px;
+	padding: 10px 0;
+	ul{
+		color: $color-1;
+		li{
+			font-weight: 600;
+			border-bottom: 1px solid rgba(black, 0.2);
+			a{
+				position: relative;
+				display: block;
+				padding: 15px 15px;
+				&:not(.collapsed){
+					.fa{
+						transform: rotate(90deg);
+					}
+				}
+			}
+			span{
+				vertical-align: middle;
+				display: block;
+				@media (min-width: 992px) {
+					max-width: 220px;
+				}
+				@media (max-width: 992px) {
+					max-width: 240px;
+					margin: auto;
+				}
+
+			}
+			.fa{
+				position: absolute;
+				@extend .trans-v-center;
+				width: 18px;
+				text-align: center;
+				height: 18px;
+				right: 15px;
+				font-size: 18px;
+				transform-origin: 70% 30%;
+				display: inline-block;
+				transition: all 0.3s ease;
+			}
+			.collapse-content{
+				color: rgba(white, 0.8);
+				position: relative;
+				background-color: $color-1;
+				@extend .hover-underline;
+				li{
+					font-weight: normal;
+					&:hover{
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+//catalog
+.catalog{
+	background-color: white;
+	border-radius: 15px;
+}
+.catalog-items{
+	.img{
+		height: 120px;
+		background-size: contain;
+		background-position: center;
+	}
+	.wrapper{
+		border: 1px solid rgba(black, 0.2);
+		border-radius: 15px;
+		padding: 15px;
+		background-color: white;
+		min-height: 320px;
+	}
+	.desc-content{
+		min-height: 110px;
+	}
+	h5{
+
+	}
+}
+//catalog-article
+.catalog-article-carousel{
+	border-radius: 15px;
+	border: 1px solid rgba(black, 0.2);
+	overflow: hidden;
+	figure{
+	}
+	.img{
+		background-size: contain;
+		background-position: center;
+		height: 340px;
+	}
+	.flickity-prev-next-button svg{
+		transform: scale(0.8);
+	}
+}
+.catalog-article-desc{
+	.pie-flex-center{
+		border-radius: 15px;
+		position: relative;
+		border: 1px solid rgba(black, 0.2);
+		padding: 0 15px;
+		height: 340px;
+		overflow: hidden;
+	}
+	.btn-def{
+		border-radius: 0;
+		width: 100%;
+		left: 0;
+		a{
+			padding: 10px 10px;}
+		font-size: 1.2em;
+		font-weight: 600;
+		bottom: 0;
+		position: absolute;
+	}
+}

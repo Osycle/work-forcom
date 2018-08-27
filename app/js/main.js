@@ -276,6 +276,23 @@
         percentPosition: true,
         cellAlign: 'center'
       });
+
+      $('.catalog-article-carousel .carousel-items').flickity({
+        imagesLoaded: true,
+        autoPlay: 3000,
+        freeScroll: false,
+        pauseAutoPlayOnHover: true,
+        arrowShape: "M 0,50 L 60,00 L 50,30 L 80,30 L 80,70 L 50,70 L 60,100 Z",
+        initialIndex: 2,
+        prevNextButtons: true,
+        draggable: false,
+        adaptiveHeight: true, 
+        wrapAround: false,
+        pageDots: true,
+        contain: true,
+        percentPosition: true,
+        cellAlign: 'center'
+      });
     
 
 

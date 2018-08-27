@@ -673,7 +673,7 @@ table {
 				border: 0;
 				display: block;
 				background-color: transparent;
-				padding: 7px 7px;
+				padding: 9px 7px;
 			}
 			&.active{
 				background-color: darken($color-gray-1, 5%);
@@ -739,7 +739,7 @@ body{
 	//height: auto;
 	background-color: white;
 	background-image: url('../img/bg/bg-body.jpg');
-	background-size: cover;
+	//background-size: cover;
 	background-repeat: repeat-y;
 }
 
@@ -847,7 +847,7 @@ h1, h2, h3, h4{
 h1{
 	line-height: 125%;
 	color: $color-1;
-	font-size: em(33, 15);
+	font-size: em(30, 15);
 	margin-bottom: 15px;
 	font-weight: 700;
 	@media (max-width: 430px) {
@@ -855,8 +855,9 @@ h1{
 	}
 }
 h2{
+	color: $color-1;
 	font-weight: 700;
-	font-size: em(25, 15);
+	font-size: em(24, 15);
 	margin-bottom: 15px;
 	@media (max-width: 430px) {
 		font-size: em(25/1.2, 15);
@@ -871,11 +872,12 @@ h3{
 }
 h4{
 	font-weight: 700;
-	font-size: em(18, 15);
+	font-size: em(17, 15);
 }
 h5{	
+	line-height: 150%;
 	font-weight: 900;
-	font-size: em(15, 15);
+	font-size: em(13, 15);
 }
 
 .h-style-1{

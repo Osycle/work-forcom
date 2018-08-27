@@ -69,14 +69,12 @@
 		<!-- MIN MENU -->
 		<div id="min-menu" data-aos="fade">
 			<ul>
-				<li><a data-scroll href="#short-howworking">Кабинет</a></li>
-				<div class="m-v-10 clearfix">
-					<div class="btn-content color-white p-h-60">
-						<span class="btn-def reverse changecolor-none m-v-15"><a href="javascript:;" data-src="#addadvert-modal" data-fancybox><i class="fa fa-plus p-r-5"></i>Подать обьявление</a></span>
-						<span class="btn-def col-md-3 changecolor-none m-v-15"><a href="javascript:;" data-src="#signin-modal" data-fancybox>Войти</a></span>
-					</div>
-				</div>
-
+				<li><a href="index.html" title=>главная</a></li>
+				<li><a href="about.html" title=>о компании</a></li>
+				<li><a href="catalog.html" title=>каталог товаров</a></li>
+				<li><a href="shares.html" title=>акции</a></li>
+				<li><a href="contacts.html" title=>контакты</a></li>
+				<li><a href="services.html" title=>услуги</a></li>
 			</ul>
 		</div>
 		<!-- MIN MENU HEADER -->
@@ -85,11 +83,10 @@
 			<div class="col-xs-9">
 				<div class="min-menu-logo">
 					<div class=" p-h-15">
-							<a href="index.html" title="">
-								<h1 class="color-2 h-clear">Ticketboard.Ru</h1>
-								<p>Бесплатная доска объявлений</p>
-							</a>
-						</div>	
+						<a href="index.html" title="">
+							<div class="img" style="background-image: url('img/logo.png');"></div>
+						</a>
+					</div>	
 				</div>
 			</div>
 			<div class="min-menu-bar col-xs-3">
@@ -231,21 +228,35 @@
 			</div><!-- ./MAIN-CONTENT -->
 		</main><!-- ./MAIN -->
 		<!-- FOOTER -->
-		<footer id="footer" class="text-center-sm">
+		<footer id="footer" class="text-center-sm bg-color-2">
 			<div class="container">
-				<div class="footer-content clearfix p-v-30 color-black">
+				<div class="footer-content clearfix p-v-15 color-white">
 					<div class="row">
-						<div class="copyright col-md-6 p-v-10 p-h-15">
-							<p>Copyright ©
-								<span class="color-2"></span>
-								<time id="copydate"></time>. Все права защищены</p>
+						<div class="footer-logo pie-md-2 p-h-15 m-v-15">
+							<img src="img/footer-logo.png" alt="">
+						</div>
+						<div class="footer-menu pie-md-5 p-h-15 hover-color-1 hidden-xs hidden-sm">
+							<ul class="list-inline">
+								<li><a href="index.html" title=>главная</a></li>
+								<li><a href="about.html" title=>о компании</a></li>
+								<li><a href="catalog.html" title=>каталог товаров</a></li>
+								<li><a href="shares.html" title=>акции</a></li>
+								<li><a href="contacts.html" title=>контакты</a></li>
+								<li><a href="services.html" title=>услуги</a></li>
+							</ul>
+						</div>
+						<div class="copyright pie-md-3 p-v-10 p-h-15">
+							<p>Copyright © 2011 -
+								<time id="copydate"></time>. 
+								<b class="color-1">FOR</b><b class="color-black">COM</b>
+							</p>
 							<script>
 								copydate.innerText = new Date().getFullYear()
 							</script>
 						</div>
-						<div class="dev hidden-xs hidden-sm text-right-md col-md-6 p-v-10 p-h-15">
+						<div class="dev hidden-xs hidden-sm text-right-md pie-md-3 p-v-10 p-h-15">
 							<p>
-								<a href="https://lifestyle.uz/" class="link" title="Создание и продвижение сайтов">Сайт разаботан в студии
+								<a href="https://lifestyle.uz/" class="link" title="Создание и продвижение сайтов">Создание сайтов
 									<em>
 										<span class="color-1">Life </span>
 									</em>Style</a>
@@ -259,23 +270,6 @@
 	<!-- SCRIPTS -->
 	<script src="js/scripts.min.js"></script>
 	<script src="js/main.js"></script>
-	<script>
-	    window.onload = function(){
-	      
-	        console.log(this);
-	        //Календарь
-	        $("#datepicker").datepicker({
-	            dateFormat: "yy-mm-dd",
-	            minDate: "0d",
-	            onSelect: function(dateText, inst) {
-	                console.log(dateText, inst);
-	                window.location = "/index.html/" + dateText;
-	            }
-	        });
-	        
-
-    }
-  </script>
 </body>
 
 </html>
