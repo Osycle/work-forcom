@@ -272,6 +272,15 @@ html{
 .flex-ai-center{
 	align-items: center;
 }
+.flex-def{
+	display: flex;
+	@media (max-width: 991px ) {
+		flex-direction: column;	
+	}
+	& > div, & > figure:not([class*="box-"]):not([class*="col-"]){
+		width: 100%;
+	}
+}
 .pie-flex-justify{
   justify-content: center;
   flex: 1 1;
