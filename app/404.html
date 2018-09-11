@@ -17,170 +17,9 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
+
 <body>
-	<!-- Блок скрытых элементов -->
-	<div class="hide">
 
-		<!-- Вход и регистрация -->
-		<div id="signin-modal" class="box-xs-9 fancymodal">
-			<!-- reg -->
-			<div class="reg">				
-				<div class="pie-md-6 modal-col text-center">
-					<h3 class="color-1" align="center">Войти</h3>
-					<form action="">
-						<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Email">
-						<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Пароль">
-						<span class="btn-def m-v-5"><button type="submit"><b>Войти</b></button></span>
-						<a href="#" class="color-3">Восстановить пароль</a>
-					</form>
-					<div class="moses">
-						<div class="circle shadow-default pie-flex-center"><div>Или</div></div>
-					</div>
-				</div>
-				<div class="pie-md-6 modal-col">
-					<h3 class="color-2" align="center">Зарегистрироваться</h3>
-					<form action="">
-						<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Имя">
-						<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Email">
-						<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Телефон">
-						<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Пароль">
-						<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Повторите пароль">
-						<div class="iagree m-v-15">
-							<input type="checkbox" class="pie-form-control va-middle inline-block" id="iagree" data-checkdeactive=".iagree-btn">
-							<span class="inline-block iagree-text box-xs-9 va-middle"><a href="#">Согласен с условиями пользовательского соглашения</a></span>
-						</div>
-						<span class="btn-def iagree-btn m-v-5 reverse"><button type="submit"><b>Зарегистрироваться</b></button></span>
-					</form>
-				</div>
-			</div>
-			<!-- reg-step-1 -->
-			<div class="reg-step-1 hide">				
-				<div class="pie-md-6 modal-col">
-					<h3 class="color-1" align="center">Войти</h3>
-					<form action="">
-						<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Email">
-						<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Пароль">
-						<span class="btn-def m-v-5"><button type="submit"><b>Войти</b></button></span>
-						<div class="text-center">
-							<a href="#" class="color-3">Восстановить пароль</a>
-						</div>
-					</form>
-					<div class="moses">
-						<div class="circle shadow-default pie-flex-center"><div>Или</div></div>
-					</div>
-				</div>
-				<div class="pie-md-6 modal-col">
-					<h3 class="color-2" align="center">Зарегистрироваться</h3>
-					<form action="">
-						<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Телефон">
-						<span class="btn-def m-v-5 reverse"><button type="submit"><b>Далее</b></button></span>
-					</form>
-				</div>
-			</div>
-			<!-- reg-step-2 -->
-			<div class="reg-step-2 hide">				
-				<div class="pie-md-6 modal-col">
-					<h3 class="color-1" align="center">Войти</h3>
-					<form action="">
-						<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Email">
-						<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Пароль">
-						<span class="btn-def m-v-5"><button type="submit"><b>Войти</b></button></span>
-						<div class="text-center">
-							<a href="#" class="color-3">Восстановить пароль</a>
-						</div>
-					</form>
-					<div class="moses">
-						<div class="circle shadow-default pie-flex-center"><div>Или</div></div>
-					</div>
-				</div>
-				<div class="pie-md-6 modal-col">
-					<h3 class="color-2" align="center">Зарегистрироваться</h3>
-					<form action="">
-						<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Имя">
-						<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Email">
-						<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Пароль">
-						<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Повторите пароль">
-						<span class="btn-def m-v-5 reverse"><button type="submit"><b>Зарегистрироваться</b></button></span>
-					</form>
-				</div>
-			</div>
-			<!-- reg-step-3 -->
-			<div class="reg-step-3 hide">				
-				<div class="pie-md-1 modal-col text-center">
-					<form action="">
-						<div class="iagree m-v-15">
-							<span class="inline-block iagree-text box-xs-9">
-								<input type="checkbox" class="hide va-middle inline-block p-r-5" id="reg-step-3-iagree">
-								<label class="va-middle p-r-5" for="reg-step-3-iagree">
-									<span class="checkbox-style-1"></span>
-								</label>
-								<a href="#" class="va-middle">Согласен с условиями пользовательского соглашения</a>
-							</span>
-						</div>
-						<span class="btn-def m-v-10 reverse inline-block"><button type="submit" class="p-h-60"><b>Далее</b></button></span>
-					</form>
-				</div>
-			</div>
-		</div>
-
-		<!-- Подать объявление -->
-		<div id="addadvert-modal" class="box-xs-9 fancymodal">
-
-			<!-- addadvert-step-1 -->
-			<div class="addadvert-step-1">				
-				<div class="pie-md-1 modal-col">
-					<h3 class="color-2" align="center">Введите ваш e-mail</h3>
-					<div class="form-content p-h-25">
-						<form action="">
-							<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Введите Email">
-							<span class="btn-def m-v-5 reverse"><button type="submit"><b>Далее</b></button></span>
-						</form>
-					</div>
-				</div>
-			</div>
-			<!-- addadvert-step-2 -->
-			<div class="addadvert-step-2 hide">				
-				<div class="pie-md-1 modal-col">
-					<h3 class="color-2" align="center">Войти</h3>
-					<div class="form-content p-h-25">
-						<form action="">
-							<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Пароль">
-							<span class="btn-def m-v-5 reverse"><button type="submit"><b>Далее</b></button></span>
-						</form>
-					</div>
-				</div>
-			</div>
-
-			<!-- addadvert-step-3 -->
-			<div class="addadvert-step-3 hide">				
-				<div class="pie-md-1 modal-col">
-					<h3 class="color-2" align="center">Зарегистрироваться</h3>
-					<div class="form-content p-h-25">
-						<form action="">
-							<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Имя">
-							<input type="text" class="pie-form-control box-xs-10 m-v-5" placeholder="Телефон">
-							<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Пароль">
-							<input type="password" class="pie-form-control box-xs-10 m-v-5" placeholder="Повторите пароль">
-							<div class="captcha text-center input-btnin reverse m-v-15 clearfix row">
-								<img src="img/other/captcha.png" alt="">
-								<div class="col-md-12 search-input m-v-15">
-									<input type="text" name="" placeholder="Код с картинки" style="height: 32px;">
-									<button class="p-h-20"><b>ок</b></button>
-								</div>
-							</div>
-							<div class="iagree m-v-15">
-								<input type="checkbox" class="pie-form-control va-middle inline-block" id="iagree-addadvert" data-checkdeactive=".iagree-addadvert-btn">
-								<span class="inline-block iagree-text box-xs-9 va-middle"><a href="#">Согласен с условиями пользовательского соглашения</a></span>
-							</div>
-							<span class="btn-def iagree-addadvert-btn m-v-5 reverse"><button type="submit"><b>Продолжить</b></button></span>
-						</form>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
 	<div id="page">
 		<noscript>
 			<p>Ваш браузер не поддерживает скрипты!
@@ -189,73 +28,143 @@
 		<!-- HEADER -->
 		<div class="header-hidden"></div>
 		<header id="header" class="header-scroll hidden-sm hidden-xs" data-aos="fade">
-			<div class="header-notify bg-color-black">
-				<div class="container p-v-5">
-					<div class="col-md-6 text-left">
-						<p>Горящие билеты по номинальной стоимости</p>
-					</div>
-					<div class="col-md-6 text-right">
-						<p>Ваш город: Москва</p>
-					</div>
-				</div>
-			</div>
 			<!-- HEADER TOP -->
-			<div class="header-top bg-color-white color-black">
+			<div class="header-top bg-color-white color-1">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-3 text-center header-logo p-h-15">
+						<div class="pie-md-elastic-3 text-center header-logo p-h-15">
 							<a href="index.html" title="">
-								<div class="logo">
-									<h1 class="color-2 h-clear">Ticketboard.Ru</h1>
-									<p>Бесплатная доска объявлений</p>
-								</div>
+								<img src="img/logo.png" alt="">
 							</a>
 						</div>	
-						<div class="col-md-5 p-v-20 p-h-15">
-							<ul class="color-1">
-								<li>-Билеты на редкие мероприятия </li>
-								<li>-Купите билеты по выгодной цене </li>
-							</ul>
-							<div class="search-nav-content clearfix m-v-10 bg-color-white color-black">
-								<form action="">
-									<div class="col-md-12 search-input">
-										<input type="text" name="" placeholder="Поиск" style="height: 32px;">
-										<button type="submit" ><b>Найти</b></button>
-									</div>
-								</form>
-							</div>
-							<div class="info-insite m-v-10">
-								<p>Сейчас на сайте: 40 площадок 400 событий 500 билетов</p>
+						<div class="pie-md-elastic-8 text-center p-v-20 p-h-15">
+
+						</div>
+						<div class="header-lang pie-md-elastic-1 p-v-20 p-h-15">
+							<div class="wrapper">
+								<ul>
+									<li><span class="circle"><a href="#" title="">Uz</a></span></li>
+									<li class="active"><span class="circle"><a href="#" title="">Ru</a></span></li>
+								</ul>
 							</div>
 						</div>
-						<div class="col-md-4 p-v-20 p-h-15 header-userpanel-content">
-							<ul class="color-2">
-								<li>-Билеты на редкие мероприятия </li>
-								<li>-Купите билеты по выгодной цене </li>
-							</ul>
-							<div class="header-userpanel m-v-10 clearfix">
-								<div class="btn-content color-white">
-									<span class="btn-def reverse changecolor-none col-md-8"><a href="javascript:;" data-src="#addadvert-modal" data-fancybox><i class="fa fa-plus p-r-5"></i>Подать обьявление</a></span>
-									<span class="btn-def col-md-3 changecolor-none col-md-offset-1"><a href="javascript:;" data-src="#signin-modal" data-fancybox>Войти</a></span>
-								</div>
-							</div>
+						<div class="header-info pie-md-elastic-2 p-h-15 parag-m-v-5 text-right-md">
+							<p><big>+998 (99) 855-02-77</big></p>
+							<p><big>+998 (99) 855-01-77</big></p>
 						</div>
 					</div>
 				</div>
+			</div><!-- ./HEADER TOP -->
+			<div class="header-bottom">
+				<div class="menu pie-md-elastic-8 text-center p-h-15">
+					<nav>
+						<ul>
+							<li><a href="index.html" title=>главная</a></li>
+							<li><a href="catalog.html" title=>каталог товаров</a>
+								<ul class="sub-menu-1">
+									<li><a href="" title="">Волокнно-оптический кабель</a>
+										<ul class="sub-menu-2">
+											<li><a href="" title="">Грунт</a></li>
+											<li><a href="" title="">Кабельная канализация</a></li>
+											<li><a href="" title="">Подвесной</a></li>
+											<li><a href="" title="">Самонесущий</a></li>
+											<li><a href="" title="">Негорючий (в трубы)</a></li>
+										</ul>
+									</li>
+									<li><a href="" title="">Компоненты ВОЛС</a>
+										<ul class="sub-menu-2">
+											<li><a href="" title="">Муфты</a></li>
+											<li><a href="" title="">Патч-панели, кросс боксы</a></li>
+											<li><a href="" title="">Адаптеры</a></li>
+											<li><a href="" title="">Пигтейлы</a></li>
+											<li><a href="" title="">Патч-корды</a></li>
+											<li><a href="" title="">Механические коннекторы</a></li>
+										</ul>
+
+									</li>
+									<li><a href="" title="">Активное сетевое оборудование</a>
+										<ul class="sub-menu-2">
+											<li><a href="" title="">Медиаконверторы</a></li>
+											<li><a href="" title="">SFP модули</a></li>
+										</ul>
+									</li>
+									<li><a href="" title="">Телекоммуникационные шкафы</a>
+										<ul class="sub-menu-2">
+											<li><a href="" title="">Настенные шкафы</a></li>
+											<li><a href="" title="">Напольные шкафы</a></li>
+										</ul>
+									</li>
+
+									<li><a href="" title="">Компоненты СКС</a>
+										<ul class="sub-menu-2">
+											<li><a href="" title="">Патч-панели</a></li>
+											<li><a href="" title="">Органайзеры</a></li>
+											<li><a href="" title="">Рековые пилоты</a></li>
+											<li><a href="" title="">Патч-корды</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="shares.html" title=>акции</a></li>
+							<li><a href="about.html" title=>о компании</a></li>
+							<li><a href="contacts.html" title=>контакты</a></li>
+							<li><a href="services.html" title=>услуги</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			<!-- ./HEADER TOP -->
 		</header>
 		<!-- MIN MENU -->
 		<div id="min-menu" data-aos="fade">
 			<ul>
-				<li><a data-scroll href="#short-howworking">Кабинет</a></li>
-				<div class="m-v-10 clearfix">
-					<div class="btn-content color-white p-h-60">
-						<span class="btn-def reverse changecolor-none m-v-15"><a href="javascript:;" data-src="#addadvert-modal" data-fancybox><i class="fa fa-plus p-r-5"></i>Подать обьявление</a></span>
-						<span class="btn-def col-md-3 changecolor-none m-v-15"><a href="javascript:;" data-src="#signin-modal" data-fancybox>Войти</a></span>
-					</div>
-				</div>
-
+				<li><a href="index.html" title=>главная</a></li>
+				<li><a href="about.html" title=>о компании</a></li>
+				<li><a href="catalog.html" title=>каталог товаров</a>
+					<ul>
+						<li><a href="" title="">Волокнно-оптический кабель</a>
+							<ul>
+								<li><a href="" title="">Грунт</a></li>
+								<li><a href="" title="">Кабельная канализация</a></li>
+								<li><a href="" title="">Подвесной</a></li>
+								<li><a href="" title="">Самонесущий</a></li>
+								<li><a href="" title="">Негорючий (в трубы)</a></li>
+							</ul>
+						</li>
+						<li><a href="" title="">Компоненты ВОЛС</a>
+							<ul>
+								<li><a href="" title="">Муфты</a></li>
+								<li><a href="" title="">Патч-панели, кросс боксы</a></li>
+								<li><a href="" title="">Адаптеры</a></li>
+								<li><a href="" title="">Пигтейлы</a></li>
+								<li><a href="" title="">Патч-корды</a></li>
+								<li><a href="" title="">Механические коннекторы</a></li>
+							</ul>
+						</li>
+						<li><a href="" title="">Активное сетевое оборудование</a>
+							<ul>
+								<li><a href="" title="">Медиаконверторы</a></li>
+								<li><a href="" title="">SFP модули</a></li>
+							</ul>
+						</li>
+						<li><a href="" title="">Телекоммуникационные шкафы</a>
+							<ul>
+								<li><a href="" title="">Настенные шкафы</a></li>
+								<li><a href="" title="">Напольные шкафы</a></li>
+							</ul>
+						</li>
+						<li><a href="" title="">Компоненты СКС</a>
+							<ul>
+								<li><a href="" title="">Патч-панели</a></li>
+								<li><a href="" title="">Органайзеры</a></li>
+								<li><a href="" title="">Рековые пилоты</a></li>
+								<li><a href="" title="">Патч-корды</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="shares.html" title=>акции</a></li>
+				<li><a href="contacts.html" title=>контакты</a></li>
+				<li><a href="services.html" title=>услуги</a></li>
 			</ul>
 		</div>
 		<!-- MIN MENU HEADER -->
@@ -264,11 +173,10 @@
 			<div class="col-xs-9">
 				<div class="min-menu-logo">
 					<div class=" p-h-15">
-							<a href="index.html" title="">
-								<h1 class="color-2 h-clear">Ticketboard.Ru</h1>
-								<p>Бесплатная доска объявлений</p>
-							</a>
-						</div>	
+						<a href="index.html" title="">
+							<div class="img" style="background-image: url('img/logo.png');"></div>
+						</a>
+					</div>	
 				</div>
 			</div>
 			<div class="min-menu-bar col-xs-3">
@@ -282,146 +190,63 @@
 			</div>
 		</div>
 		<!-- MAIN -->
-		<main data-aos="fade" data-aos-delay="0" class="z-index-1">
+		<main data-aos="fade" data-aos-delay="0">
 
-			<div class="main-content over-hidden shadow-default">
-				<div class="container">
-					<div class="column-1 col-md-3 p-h-15">
-						<!-- calendar -->
-						<div class="calendar m-v-30 hidden-xs hidden-sm">
-							<div class="wrapper shadow-default radius-3 clearfix p-v-15 p-b-30">
-								<div class="entry-header p-h-15">
-									<h2 class="color-2">Календарь</h2>
-								</div>
-								<br>
-								<div class="current-date color-1 p-h-15">
-									<p><big>17 Июля 2014</big></p>
-								</div>
-								<div id="datepicker" class="p-h-5"></div>
-							</div>
-						</div>
-						<div class="bar-platform m-v-30">
-							<div class="wrapper shadow-default radius-3 clearfix p-v-15 p-b-30">
-								<div class="entry-header p-h-15">
-									<h2 class="color-2">Площадки</h2>
-								</div>
-								<div class="bar-platform-items color-3 hover-color-2">
-									<ul>
-										<li><a href="platform.html">Большой театр</a><span class="color-gray-2">(20)</span></li>
-										<li><a href="platform.html">Гоголь - центр</a><span class="color-gray-2">(30)</span></li>
-										<li><a href="platform.html">Малый театр</a><span class="color-gray-2">(40)</span></li>
-										<li><a href="platform.html">Театр Современник</a><span class="color-gray-2"> (100)</span></li>
-										<li><a href="platform.html">Театр Сатиры</a><span class="color-gray-2"> (100)</span></li>
-										<li><a href="platform.html">Театр Золотое кольцо</a><span class="color-gray-2"> (90)</span></li>
-										<li><a href="platform.html">Российский академический  молодежный театр</a><span class="color-gray-2"> (70)</span> </li>
-										<li><a href="platform.html">Москонцерт. Мюзик-Холл</a><span class="color-gray-2"> (100)</span></li>
-										<li><a href="platform.html">Малый театр</a><span class="color-gray-2"> (40)</span></li>
-										<li><a href="platform.html">Гоголь - центр</a><span class="color-gray-2"> (30)</span></li>
-										<li><a href="platform.html">Большой театр</a><span class="color-gray-2"> (20)</span></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column-2 col-md-9 p-h-15">
-
-		        <!-- error -->
-		        <div class="error">
-	            <div class="error-content m-v-30 over-hidden color-black"">
-	              <div class="clearfix m-v-60 text-center">
-	                <font size="7" class="color-2">
-	                  <i class="fa fa-frown-o" data-aos="flip-up" data-aos-duration="3000" data-aos-delay="300" style="font-size: 300px;"></i>
-	                </font>
-	                <p>
-	                  <font size="7" class="color-1">404</font>
-	                </p>
-	                <h3>Страница не найдена</h3>
-	                <p>
-	                  <strong>Вероятные причины:</strong>
-	                  <br> Была допущена ошибка при наборе адреса.
-	                  <br> Вы нажали на устаревшую ссылку.
-	                </p>
-	                <p>
-	                  <a href="index.html"><u>Перейти на главную</u></a>
-	                </p>
-	              </div>
-	            </div>
-		        </div>
-
-					</div>
-				</div>
-				<hr class="dashed">
-				<div class="container">
-					<!-- empty-text -->
-					<div class="empty-text p-b-30 col-md-9 col-md-offset-3">
-						<p>Цена клика, как следует из вышесказанного, обуславливает рекламоноситель, не считаясь с затратами. Целевой сегмент рынка, как следует из вышесказанного, определяет сублимированный имидж предприятия. Ассортиментная политика предприятия поддерживает социометрический бюджет на размещение, осознав маркетинг как часть производства. Имидж позиционирует отраслевой стандарт. Идеология выстраивания бренда искажает мониторинг активности.</p>
-					</div>
-					<!-- ./empty-text -->
-				</div>
-			</div>
-			<!-- ./MAIN-CONTENT -->
-		</main>
-		<!-- ./MAIN -->
+			<div class="main-content">
+	      <!-- error -->
+	      <div class="error">
+	        <div class="error-content m-v-30 over-hidden color-black"">
+	          <div class="clearfix m-v-60 text-center">
+	            <font size="7" class="color-2">
+	              <i class="fa fa-frown-o" data-aos="flip-up" data-aos-duration="3000" data-aos-delay="300" style="font-size: 300px;"></i>
+	            </font>
+	            <p>
+	              <font size="7" class="color-1">404</font>
+	            </p>
+	            <h3>Страница не найдена</h3>
+	            <p>
+	              <strong>Вероятные причины:</strong>
+	              <br> Была допущена ошибка при наборе адреса.
+	              <br> Вы нажали на устаревшую ссылку.
+	            </p>
+	            <p>
+	              <a href="index.html"><u>Перейти на главную</u></a>
+	            </p>
+	          </div>
+	        </div>
+	      </div>
+			</div><!-- ./MAIN-CONTENT -->
+		</main><!-- ./MAIN -->
 		<!-- FOOTER -->
-		<footer id="footer" class="text-center-sm">
+		<footer id="footer" class="text-center-sm bg-color-2">
 			<div class="container">
-				<div class="footer-content clearfix p-v-30 color-black">
+				<div class="footer-content clearfix p-v-15 color-white">
 					<div class="row">
-						<div class="col-md-3 text-center header-logo p-h-15">
-							<a href="index.html" title="">
-								<div class="logo m-auto">
-									<h1 class="color-2 h-clear">Ticketboard.Ru</h1>
-									<p>Бесплатная доска объявлений</p>
-								</div>
-							</a>
+						<div class="footer-logo pie-md-2 p-h-15 m-v-15">
+							<img src="img/footer-logo.png" alt="">
 						</div>
-						<div class="col-md-6 p-h15 footer-menu hover-color-2 p-v-35 color-1">
-							<ul>
-								<li><a href="">Обратная связь</a></li>
-								<li><a href="">Наши партнеры</a></li>
-								<li><a href="">Часто задаваемые вопросы</a></li>
-								<li><a href="">Новости</a></li>
-								<li><a href="">Контакты</a></li>
-								<li><a href="">Правила сайта</a></li>
-							</ul>
-						</div>
-						<div class="col-md-3 p-h-15 footer-socicons">
-							<h5>Мы в соц. сетях:</h5>
+						<div class="footer-menu pie-md-5 p-h-15 hover-color-1 hidden-xs hidden-sm">
 							<ul class="list-inline">
-								<li><a href=""><img src="img/icons/telegram.png" alt=""></a></li>
-								<li><a href=""><img src="img/icons/facebook.png" alt=""></a></li>
-								<li><a href=""><img src="img/icons/vk.png" alt=""></a></li>
-								<li><a href=""><img src="img/icons/twitter.png" alt=""></a></li>
+								<li><a href="index.html" title=>главная</a></li>
+								<li><a href="catalog.html" title=>каталог товаров</a></li>
+								<li><a href="shares.html" title=>акции</a></li>
+								<li><a href="about.html" title=>о компании</a></li>
+								<li><a href="contacts.html" title=>контакты</a></li>
+								<li><a href="services.html" title=>услуги</a></li>
 							</ul>
-							<br>
-							<h5>Рассылка на лучшие предложения</h5>
-							<div class="search-nav-content clearfix m-v-10 color-black">
-									<form action="">
-										<div class="col-md-12 search-input">
-											<input type="text" name="" placeholder="Email" style="height: 32px;">
-											<button type="submit" ><b>Подписаться</b></button>
-										</div>
-									</form>
-								</div>
 						</div>
-					</div>
-				</div>
-			</div>
-			<!-- DEV -->
-			<div class="footer-dev bg-color-3 color-white">
-				<div class="container">
-					<div class="row">
-						<div class="copyright col-md-6 p-v-10 p-h-15">
-							<p>Copyright ©
-								<span class="color-2"></span>
-								<time id="copydate"></time>. Все права защищены</p>
+						<div class="copyright pie-md-3 p-v-10 p-h-15">
+							<p>Copyright © 2011 -
+								<time id="copydate"></time>. 
+								<b class="color-1">FOR</b><b class="color-black">COM</b>
+							</p>
 							<script>
 								copydate.innerText = new Date().getFullYear()
 							</script>
 						</div>
-						<div class="dev hidden-xs hidden-sm text-right-md col-md-6 p-v-10 p-h-15">
+						<div class="dev hidden-xs hidden-sm text-right-md pie-md-3 p-v-10 p-h-15">
 							<p>
-								<a href="https://lifestyle.uz/" class="link" title="Создание и продвижение сайтов">Сайт разаботан в студии
+								<a href="https://lifestyle.uz/" class="link" title="Создание и продвижение сайтов">Создание сайтов
 									<em>
 										<span class="color-1">Life </span>
 									</em>Style</a>
@@ -435,23 +260,6 @@
 	<!-- SCRIPTS -->
 	<script src="js/scripts.min.js"></script>
 	<script src="js/main.js"></script>
-	<script>
-	    window.onload = function(){
-	      
-	        console.log(this);
-	        //Календарь
-	        $("#datepicker").datepicker({
-	            dateFormat: "yy-mm-dd",
-	            minDate: "0d",
-	            onSelect: function(dateText, inst) {
-	                console.log(dateText, inst);
-	                window.location = "/index.html/" + dateText;
-	            }
-	        });
-	        
-
-    }
-  </script>
 </body>
 
 </html>

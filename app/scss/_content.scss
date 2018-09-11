@@ -347,7 +347,14 @@ p{
 //--about
 .about{
 	.text-content{
-		column-count: 2;
+		//column-count: 2;
+	}
+	.img-content{
+		.img{
+			background-position: center;
+			background-size: contain;
+			height: 150px;
+		}
 	}
 }
 @keyframes brightnessPulse{
