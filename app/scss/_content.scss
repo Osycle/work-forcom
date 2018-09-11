@@ -349,7 +349,7 @@ p{
 	.text-content{
 		//column-count: 2;
 	}
-	.img-content{
+	.about-img{
 		.img{
 			background-position: center;
 			background-size: contain;
@@ -375,6 +375,13 @@ p{
 				animation: brightnessPulse 2s ease-in-out infinite;
 			}
 		}
+		.img{
+			//width: 80px;
+			height: 90px;
+			margin: auto;
+			background-size: contain;
+			background-position: center;
+		}
 	}
 }
 //--partners
@@ -391,4 +398,8 @@ p{
 	font-weight: 700;
 	font-size: 1.3em;
 	color: #e53935;
+}
+.contacts{
+	background-repeat: no-repeat;
+	background-position: cover;
 }

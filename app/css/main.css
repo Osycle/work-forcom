@@ -8569,7 +8569,7 @@ textarea.form-control {
 p {
   font-family: "Open Sans"; }
 
-.about .img-content .img {
+.about .about-img .img {
   background-position: center;
   -webkit-background-size: contain;
   background-size: contain;
@@ -8598,6 +8598,12 @@ p {
   .short-advantages-items figure:hover .img-content {
     -webkit-animation: brightnessPulse 2s ease-in-out infinite;
     animation: brightnessPulse 2s ease-in-out infinite; }
+  .short-advantages-items figure .img {
+    height: 90px;
+    margin: auto;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center; }
 
 .partners-items figure .img {
   -webkit-background-size: contain;
@@ -8609,6 +8615,10 @@ p {
   font-weight: 700;
   font-size: 1.3em;
   color: #e53935; }
+
+.contacts {
+  background-repeat: no-repeat;
+  background-position: cover; }
 
 /* 
 		_footer.scss
