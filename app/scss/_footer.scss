@@ -27,3 +27,11 @@
 .dev{
 	white-space: nowrap;
 }
+@media (max-width: 991px){
+	#footer{
+		.footer-logo{
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+}
