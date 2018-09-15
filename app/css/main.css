@@ -7773,7 +7773,7 @@ input[type="radio"]:checked ~ .radio-style-1, input[type="radio"]:checked ~ labe
 
 .header-bottom {
   top: 0;
-  background-color: #30302F; }
+  background-color: #0061ac; }
 
 .header-scroll .header-top, .header-scroll .header-bottom {
   -webkit-transition: all 0.5s ease;
@@ -7872,48 +7872,50 @@ input[type="radio"]:checked ~ .radio-style-1, input[type="radio"]:checked ~ labe
   height: 40px;
   position: relative; }
   .menu ul:not([class*="sub-menu"]) > li {
+    width: 150px;
     display: inline-block;
     position: relative;
     letter-spacing: 0;
     font-size: 1.1em; }
     .menu ul:not([class*="sub-menu"]) > li > a {
       display: block;
+      text-align: center;
       padding: 18px 15px;
       position: relative; }
-    .menu ul:not([class*="sub-menu"]) > li:hover .sub-menu-1 {
-      -webkit-transform: none;
-      -ms-transform: none;
-      transform: none;
-      -webkit-transform: unset;
-      -ms-transform: unset;
-      transform: unset;
-      opacity: 1;
-      -webkit-transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-      transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-      -o-transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-      transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-      transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; }
-      .menu ul:not([class*="sub-menu"]) > li:hover .sub-menu-1, .menu ul:not([class*="sub-menu"]) > li:hover .sub-menu-1 * {
-        pointer-events: auto !important; }
-    .menu ul:not([class*="sub-menu"]) > li:hover .productions-sub-menu {
-      -webkit-transform: inherit;
-      -ms-transform: inherit;
-      transform: inherit;
-      opacity: 1; }
-      .menu ul:not([class*="sub-menu"]) > li:hover .productions-sub-menu figure {
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1); }
+    .menu ul:not([class*="sub-menu"]) > li:hover {
+      background-color: #1976D3; }
+      .menu ul:not([class*="sub-menu"]) > li:hover .sub-menu-1 {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        -webkit-transform: unset;
+        -ms-transform: unset;
+        transform: unset;
+        opacity: 1;
+        -webkit-transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+        transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+        -o-transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transition: pointer-events 0.3s ease-in-out 0.0s, opacity 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; }
+        .menu ul:not([class*="sub-menu"]) > li:hover .sub-menu-1, .menu ul:not([class*="sub-menu"]) > li:hover .sub-menu-1 * {
+          pointer-events: auto !important; }
+      .menu ul:not([class*="sub-menu"]) > li:hover .productions-sub-menu {
+        -webkit-transform: inherit;
+        -ms-transform: inherit;
+        transform: inherit;
+        opacity: 1; }
+        .menu ul:not([class*="sub-menu"]) > li:hover .productions-sub-menu figure {
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1); }
   .menu li {
-    border: 1px solid black;
     display: inline-block;
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
-    .menu li:nth-child(1) ~ li {
-      border-left: 0; }
-      .menu li:nth-child(1) ~ li * {
-        border: 0; }
+    transition: all 0.4s ease;
+    border-left: 1px solid rgba(0, 0, 0, 0.25); }
+    .menu li:nth-last-child(1) {
+      border-right: 1px solid rgba(0, 0, 0, 0.25); }
     .menu li a {
       -webkit-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
@@ -8165,7 +8167,7 @@ textarea.form-control {
     width: 100%;
     height: inherit;
     margin-left: auto;
-    border: 1px solid #0061ac;
+    border: 1px solid rgba(0, 0, 0, 0.3);
     -webkit-border-radius: 15px;
     border-radius: 15px;
     overflow: hidden; }
@@ -8177,7 +8179,18 @@ textarea.form-control {
     background-color: rgba(255, 255, 255, 0.3);
     height: 100%;
     width: 100%;
-    padding: 0 15px; }
+    padding: 0 15px;
+    color: white; }
+    .search-nav-content input::-moz-placeholder, .input-btnin input::-moz-placeholder {
+      color: white;
+      opacity: 1; }
+    .search-nav-content input:-ms-input-placeholder, .input-btnin input:-ms-input-placeholder {
+      color: white; }
+    .search-nav-content input::-webkit-input-placeholder, .input-btnin input::-webkit-input-placeholder {
+      color: white; }
+    .search-nav-content input::-ms-expand, .input-btnin input::-ms-expand {
+      border: 0;
+      background-color: transparent; }
   .search-nav-content button, .input-btnin button {
     background-color: #0061ac;
     color: white;
