@@ -316,6 +316,9 @@
 	}
 	.nav{
 		background-color: white;
+		@media (min-width: 992px) {
+			white-space: nowrap;
+		}
 	}
 	.tab-content{
 		padding: 20px 0;
@@ -339,9 +342,7 @@
 			flex-wrap: wrap;
 		}
 	}
-	@media (min-width: 992px) {
-		white-space: nowrap;
-	}
+
 }
 p{
 	font-family: $font-family-2;

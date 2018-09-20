@@ -8549,6 +8549,9 @@ textarea.form-control {
 
 .catalog-article-tabs .nav {
   background-color: white; }
+  @media (min-width: 992px) {
+    .catalog-article-tabs .nav {
+      white-space: nowrap; } }
 
 .catalog-article-tabs .tab-content {
   padding: 20px 0; }
@@ -8576,10 +8579,6 @@ textarea.form-control {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; } }
-
-@media (min-width: 992px) {
-  .catalog-article-tabs {
-    white-space: nowrap; } }
 
 p {
   font-family: "Open Sans"; }
