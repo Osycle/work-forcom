@@ -212,10 +212,10 @@
 
 
 		var arrowStyle = { 
-		  x0: 10,
-		  x1: 70, y1: 50,
-		  x2: 70, y2: 40,
-		  x3: 70
+		  x0: 30,
+		  x1: 80, y1: 50,
+		  x2: 70, y2: 35,
+		  x3: 45
 		}
 
 		/*bnr-carousel*/
@@ -284,11 +284,11 @@
         pauseAutoPlayOnHover: true,
         arrowShape: "M 0,50 L 60,00 L 50,30 L 80,30 L 80,70 L 50,70 L 60,100 Z",
         initialIndex: 2,
-        prevNextButtons: true,
+        prevNextButtons: false,
         draggable: false,
         adaptiveHeight: true, 
         wrapAround: false,
-        pageDots: true,
+        pageDots: false,
         contain: true,
         percentPosition: true,
         cellAlign: 'center'

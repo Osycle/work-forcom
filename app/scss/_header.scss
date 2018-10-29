@@ -117,6 +117,12 @@ $header-color-2: #0198D1;
 
 .header-logo{
 	height: $header-top-height;
+	img{
+		width: 310px;
+	}
+	p{
+		padding: 0 5px;
+	}
 }
 .header-lang{
 	.wrapper{
