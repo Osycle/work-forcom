@@ -7,7 +7,7 @@
 
 //--bnr-slider
 .bnr-slider{
-	$slider-height: 640px;
+	$slider-height: 500px;
 	position: relative;
 	overflow: hidden;
 	.flickity-slider{
@@ -46,8 +46,8 @@
 	}
 
 	.carousel-content{
-		.pie-flex-center{
-			height: $slider-height;
+		&, .container, .pie-flex-center{
+			height: 100%;
 		}
 	}
 	//Навигация
@@ -96,9 +96,9 @@
 	@media(max-width: 991px) {
 		font-size: 0.9em;
 		figure{
-			height: 30vh;
+			height: calc(100vh - 70px);
 			.carousel-content{
-				display: none;
+				//display: none;
 			}
 		}
 		.bg-wrapper{

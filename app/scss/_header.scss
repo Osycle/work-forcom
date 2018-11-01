@@ -361,15 +361,17 @@ $header-color-2: #0198D1;
 	box-shadow: 0 0 20px 0 black;
 	background-color: #67acf1;
 	.min-menu-logo{
-		padding: 12px 0;
+		padding: 15px 0;
 		width: 100%;
+		font-size: 7.8px;
+		min-menu-logo
 		h1{
 			font-size: 25px;
 		}
 		.img{
 			background-size: contain;
 			background-position: center left;
-			height: 50px;
+			height: 30px;
 		}
 	}
 	.min-menu-bar{
@@ -433,14 +435,7 @@ $header-color-2: #0198D1;
 			//box-shadow: 0 0 2px black;
 		}
 	}
-	.min-menu-logo{
-		img{
-			opacity: 1;
-			filter: drop-shadow( 0 -5px 1px darken($color-1, 5%) );
-			width:110px;
-			margin-top: 15px;
-		}
-	}
+
 }
 
 // ---MODAL---

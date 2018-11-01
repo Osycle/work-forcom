@@ -8022,15 +8022,16 @@ input[type="radio"]:checked ~ .radio-style-1, input[type="radio"]:checked ~ labe
   box-shadow: 0 0 20px 0 black;
   background-color: #67acf1; }
   .min-menu-header .min-menu-logo {
-    padding: 12px 0;
-    width: 100%; }
-    .min-menu-header .min-menu-logo h1 {
+    padding: 15px 0;
+    width: 100%;
+    font-size: 7.8px; }
+    .min-menu-header .min-menu-logo min-menu-logo h1 {
       font-size: 25px; }
     .min-menu-header .min-menu-logo .img {
       -webkit-background-size: contain;
       background-size: contain;
       background-position: center left;
-      height: 50px; }
+      height: 30px; }
   .min-menu-header .min-menu-bar {
     padding: 5px 0; }
     .min-menu-header .min-menu-bar .bar {
@@ -8068,12 +8069,6 @@ input[type="radio"]:checked ~ .radio-style-1, input[type="radio"]:checked ~ labe
     right: 20px;
     font-size: 60px;
     opacity: 0.8; }
-  .mm-navbar .min-menu-logo img {
-    opacity: 1;
-    -webkit-filter: drop-shadow(0 -5px 1px #005393);
-    filter: drop-shadow(0 -5px 1px #005393);
-    width: 110px;
-    margin-top: 15px; }
 
 @media (max-width: 991px) {
   .modal .pie-flex-center {
@@ -8301,7 +8296,7 @@ textarea.form-control {
     background-size: cover;
     background-position: center center; }
   .bnr-slider figure {
-    height: 640px;
+    height: 500px;
     -webkit-transition: all 2s ease;
     -o-transition: all 2s ease;
     transition: all 2s ease;
@@ -8326,8 +8321,8 @@ textarea.form-control {
       .bnr-slider figure.is-selected .img {
         -webkit-filter: blur(0);
         filter: blur(0); }
-  .bnr-slider .carousel-content .pie-flex-center {
-    height: 640px; }
+  .bnr-slider .carousel-content, .bnr-slider .carousel-content .container, .bnr-slider .carousel-content .pie-flex-center {
+    height: 100%; }
   .bnr-slider .flickity-page-dots {
     margin-bottom: 70px; }
   .bnr-slider .flickity-prev-next-button {
@@ -8367,9 +8362,8 @@ textarea.form-control {
     .bnr-slider {
       font-size: 0.9em; }
       .bnr-slider figure {
-        height: 30vh; }
-        .bnr-slider figure .carousel-content {
-          display: none; }
+        height: -webkit-calc(100vh - 70px);
+        height: calc(100vh - 70px); }
       .bnr-slider .bg-wrapper {
         width: 100%;
         -webkit-transform: scale(0.8);
