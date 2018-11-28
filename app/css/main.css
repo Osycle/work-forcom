@@ -7507,7 +7507,9 @@ hr {
 
 .main-content {
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  min-height: -webkit-calc(100vh - (155px + 83px));
+  min-height: calc(100vh - (155px + 83px)); }
   @media (max-width: 991px) {
     .main-content {
       text-align: center; } }
@@ -7523,6 +7525,12 @@ hr {
     margin: 15px 0; }
   .main-content .line-height-def {
     line-height: 100%; }
+
+@media (min-width: 992px) {
+  .breadcrumb-container {
+    margin-bottom: -25px;
+    position: relative;
+    z-index: 1; } }
 
 .main-slider {
   z-index: 0;
@@ -8486,10 +8494,10 @@ textarea.form-control {
 .catalog-items .wrapper {
   padding: 15px;
   background-color: white;
-  min-height: 320px; }
+  min-height: 280px; }
 
 .catalog-items .desc-content {
-  min-height: 160px; }
+  min-height: 70px; }
 
 .discount-content {
   position: absolute;

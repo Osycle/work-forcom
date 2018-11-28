@@ -961,6 +961,7 @@ hr{
 	//z-index: 1;
 	overflow: hidden;
 	position: relative;
+	min-height: calc(100vh - (155px + 83px) );
 	@media (max-width: 991px){
 		text-align: center ;
 	}
@@ -990,8 +991,10 @@ hr{
 }
 .breadcrumb-container{
 
-
 	@media (min-width:992px){
+		margin-bottom: -25px;
+		position: relative;
+    z-index: 1;
 		//position: absolute;
 		//width: 20%;
 	}
