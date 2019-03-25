@@ -1393,3 +1393,42 @@ $path: "../fonts/";
 	font-weight: normal;
 	font-style: normal;
 }
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Arimo';
+    src: url($path+'Arimo.woff2') format('woff2'),
+        url($path+'Arimo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url($path+'Arimo-Italic.woff2') format('woff2'),
+        url($path+'Arimo-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url($path+'Arimo-Bold.woff2') format('woff2'),
+        url($path+'Arimo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url($path+'Arimo-BoldItalic.woff2') format('woff2'),
+        url($path+'Arimo-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+

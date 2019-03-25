@@ -6061,6 +6061,30 @@ tbody.collapse.in {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Arimo';
+  src: url("../fonts/Arimo.woff2") format("woff2"), url("../fonts/Arimo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Arimo';
+  src: url("../fonts/Arimo-Italic.woff2") format("woff2"), url("../fonts/Arimo-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Arimo';
+  src: url("../fonts/Arimo-Bold.woff2") format("woff2"), url("../fonts/Arimo-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Arimo';
+  src: url("../fonts/Arimo-BoldItalic.woff2") format("woff2"), url("../fonts/Arimo-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+
 .select2-container {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -6899,7 +6923,7 @@ table {
   text-decoration: underline; }
 
 .font-family-1 {
-  font-family: "Myriad Pro"; }
+  font-family: "Arimo"; }
 
 .font-family-2 {
   font-family: "Open Sans"; }
@@ -7203,7 +7227,7 @@ table {
   border-radius: 20px;
   text-align: center;
   font-weight: 600;
-  font-family: "Myriad Pro"; }
+  font-family: "Arimo"; }
   .btn-style.text-wrap, .text-wrap.btn-def, .text-wrap.btn-icon, .text-wrap.btn-opacity {
     white-space: wrap; }
   .btn-style button, .btn-def button, .btn-icon button, .btn-opacity button {
@@ -7333,7 +7357,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-text-size-adjust: none;
   text-size-adjust: none;
-  font: 14px "Myriad Pro";
+  font: 14px "Arimo";
   overflow-x: hidden;
   background-color: white;
   background-image: url("../img/bg/bg-body.jpg");
@@ -7574,7 +7598,7 @@ hr {
     .rev-slider .slide-header h1 {
       line-height: 140%;
       padding-bottom: 0;
-      font-family: "Myriad Pro"; }
+      font-family: "Arimo"; }
     .rev-slider .slide-header h1 {
       margin: 0;
       padding: 10px 5px;
